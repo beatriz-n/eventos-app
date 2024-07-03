@@ -14,7 +14,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body class="font-sans antialiased dark:bg-black dark:text-white/50">
+<body class="font-sans antialiased">
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a href="/" class="navbar-brand">
@@ -35,12 +35,25 @@
           <li class="nav-item">
             <a class="nav-link" href="/events/create">Criar Eventos</a>
           </li>
+          @auth
           <li class="nav-item">
-            <a class="nav-link" href="#">Entrar</a>
+            <a class="nav-link" href="/dashboard">Meus Eventos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Cadastrar</a>
+            <form action="/logout" method="POST">
+              @csrf
+              <a class="nav-link" href="/logout" onclick="event.preventDefault(); this.closest('form').submit();">Sair</a>
+            </form>
           </li>
+          @endauth
+          @guest
+          <li class="nav-item">
+            <a class="nav-link" href="/login">Entrar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/register">Cadastrar</a>
+          </li>
+          @endguest
         </ul>
       </div>
     </nav>
