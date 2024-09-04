@@ -70,4 +70,4 @@ Com ajuda dos videos do **Matheus Battisti** [GitHub](https://github.com/matheus
 ## Recursos Adicionais
 
 Este projeto foi desenvolvido seguindo a playlist do YouTube de Matheus Battisti:
-[Playlist de Aprendizado Laravel](https://youtube.com/playlist?list=PLnDvRpP8BnewYKI1n2chQrrR4EYiJKbUG&si=ZrqjWytYXLDT1nnH)
+[Playlist de Laravel](https://youtube.com/playlist?list=PLnDvRpP8BnewYKI1n2chQrrR4EYiJKbUG&si=ZrqjWytYXLDT1nnH)
