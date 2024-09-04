@@ -17,8 +17,7 @@ Com ajuda dos videos do **Matheus Battisti** [GitHub](https://github.com/matheus
 
 ## Colaboradores
 
-- **Beatriz Néspoli**  
-  [GitHub](https://github.com/beatriz-n)
+- [Beatriz Néspoli](https://github.com/beatriz-n)
 
 ## Recursos
 
