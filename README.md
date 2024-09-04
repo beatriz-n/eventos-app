@@ -72,7 +72,3 @@ Com ajuda dos videos do **Matheus Battisti** [GitHub](https://github.com/matheus
 
 Este projeto foi desenvolvido seguindo a playlist do YouTube de Matheus Battisti:
 [Playlist de Aprendizado Laravel](https://youtube.com/playlist?list=PLnDvRpP8BnewYKI1n2chQrrR4EYiJKbUG&si=ZrqjWytYXLDT1nnH)
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
